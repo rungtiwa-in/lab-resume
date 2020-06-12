@@ -1,0 +1,44 @@
+body {
+  font-family: "Kanit";
+  font-size: 16px;
+  margin: 0;
+}
+
+table,
+th,
+td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+th,
+td {
+  padding: 5px;
+  text-align: left;
+}
+
+.container {
+  max-width: 1000px;
+  margin: auto;
+}
+
+.header {
+  color: white;
+  background-color: darkgrey;
+  min-height: 150px;
+  padding: 10px;
+}
+
+.header img {
+  width: 150px;
+  background-color: white;
+  border-radius: 50%;
+}
+
+.header .topic {
+    display: inline;
+}
+
+.content .topic {
+  border-bottom: 1px solid darkgrey;
+}
